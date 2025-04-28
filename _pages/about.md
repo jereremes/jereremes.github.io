@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Contacts. Motto. Etc.
+subtitle: <a href='#'>Researcher</a>. PhD in theoretical physics. Based in Helsinki, Finland.
 
 profile:
   align: right

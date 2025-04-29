@@ -72,6 +72,10 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Configure Bundler
+        run: bundle config set frozen false
+      - name: Install Bundler Dependencies
+        run: bundle install
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:

@@ -518,6 +518,13 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1695595", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jere-remes", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',

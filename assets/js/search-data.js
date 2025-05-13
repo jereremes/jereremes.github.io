@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
+  },{id: "nav-scientific-publications",
+          title: "scientific publications",
           description: "Note that the authors in the particle physics articles are presented in alphabetical order, according to the tradition of the field.",
           section: "Navigation",
           handler: () => {

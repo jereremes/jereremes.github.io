@@ -173,7 +173,7 @@ include: ["_pages", "_scripts"]
 exclude:
   - _pages/publications
   - _pages/blog
-  - _pages/submenus
+  - _pages/dropdown
   - _pages/teaching
   - bin/
   - CONTRIBUTING.md

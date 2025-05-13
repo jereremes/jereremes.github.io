@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
+description: Note that the authors in the particle physics articles are presented in alphabetical order, according to the tradition of the field.
 nav: true
 nav_order: 2
 ---

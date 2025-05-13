@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Note that the authors in the particle physics articles are presented in alphabetical order, according to the tradition of the field.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";

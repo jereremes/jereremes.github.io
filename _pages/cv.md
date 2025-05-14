@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/example_pdf.pdf
+permalink: /assets/pdf/resume.pdf
 title: CV
 nav: true
 newtab: true

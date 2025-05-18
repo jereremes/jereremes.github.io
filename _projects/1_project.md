@@ -4,7 +4,7 @@ title: project 1
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: quantum information 
+category: quantum-information 
 related_publications: true
 ---
 

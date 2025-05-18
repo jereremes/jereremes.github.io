@@ -5,7 +5,7 @@ permalink: /projects/
 description: Studying, refamiliarizing and deepening my understanding of select subjects.
 nav: true
 nav_order: 3
-display_categories: [quantum information, coding]
+display_categories: [quantum-information, coding]
 horizontal: false
 ---
 

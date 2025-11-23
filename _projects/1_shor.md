@@ -1,16 +1,21 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Implementing Shor's algorithm
+description: Just another Qiskit reimplementation of the factoring algorithm
 img: assets/img/12.jpg
 importance: 1
 category: quantum-information 
 related_publications: true
 ---
+This is just a simple Qiskit implementation of the famous Shor's algorithm to familiarize myself with both the logic of the algorithm as well as writing Qiskit. 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+
+
+
+
+Below is just the reference for the markdown code while I finish this implementation. Sorry for the mess, future me.
+__
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

@@ -12,8 +12,8 @@ related_publications: true
 
 I hope anyone reading this knows why Peter Shor's 1994 famous factoring algorithm is such a big deal. As it is not especially complex and due to its important nature I deemed it a good project to both to familiarize myself with the logic of the algorithm (and thus the logic of actually useful quantum algorithms) as well as writing Qiskit. For the Qiskit implementation, I am mainly following the [IBM tutorial](https://quantum.cloud.ibm.com/docs/en/tutorials/shors-algorithm).
 
-## Steps
-Shor's algorithm follows in abstract from the fact, that for any composite number $N$ and natural number $g<N$ with GCD$(g,N)=1$, we can write the relation as
+## The Algorithm
+Shor's algorithm follows in abstract from the fact, that for any composite number $N$ and natural number $g<N$ with GCD$(g,N)=1$ (ie. they are coprime), we can write the relation as
 $$
 g^r = 1 \mod(N),
 $$
@@ -23,8 +23,16 @@ g^r - 1 \equiv (g^{r/2} - 1)(g^{r/2} + 1) = mN,
 $$
 where $m,r \in \mathbb{Z}$.
 
-Thus, for an initial, random number we can reduce the factoring problem into a problem of finding a suitable multiplivative order $r$.
+Thus, for an initial, random number we can reduce the factoring problem into a problem of finding a suitable multiplivative order $r$ and implementing a classical algorithm (in this case, Euclid's alogithm) to find the common denominators of $g^{r/2} - 1$ and $g^{r/2} + 1$ with $N$, thus allowing us to find the prime factors of $N$.
 
+### Steps
+1. Make an initial guess $g$ such that GCD$(g,N)=1$
+2.  ASDAasdasdasda
+
+
+### Shortfalls of the described algorithm
+1. Given a guess $g$, we can find the prime factors of $m$ instead of $N$.
+2. Our smallest order $r$ for which $g^r = 1 \mod(N)$ might be odd.
 
 
 

@@ -7,8 +7,23 @@ importance: 1
 category: quantum-information 
 related_publications: true
 ---
-This is just a simple Qiskit implementation of the famous Shor's algorithm to familiarize myself with both the logic of the algorithm as well as writing Qiskit. 
 
+## Purpose of the project
+
+I hope anyone reading this knows why Peter Shor's 1994 famous factoring algorithm is such a big deal. As it is not especially complex and due to its important nature I deemed it a good project to both to familiarize myself with the logic of the algorithm (and thus the logic of actually useful quantum algorithms) as well as writing Qiskit. For the Qiskit implementation, I am mainly following the [IBM tutorial](https://quantum.cloud.ibm.com/docs/en/tutorials/shors-algorithm).
+
+## Steps
+Shor's algorithm follows in abstract from the fact, that for any composite number $N$ and natural number $g<N$ with GCD$(g,N)=1$, we can write the relation as
+$$
+g^r = 1 \mod(N),
+$$
+or
+$$
+g^r - 1 \equiv (g^{r/2} - 1)(g^{r/2} + 1) = mN,
+$$
+where $m,r \in \mathbb{Z}$.
+
+Thus, for an initial, random number we can reduce the factoring problem into a problem of finding a suitable multiplivative order $r$.
 
 
 

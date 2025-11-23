@@ -2,7 +2,7 @@
 layout: page
 title: Implementing Shor's algorithm
 description: Just another Qiskit reimplementation of the factoring algorithm
-img: assets/img/12.jpg
+img: assets/img/SHOR.png
 importance: 1
 category: quantum-information 
 related_publications: true

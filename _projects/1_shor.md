@@ -14,10 +14,10 @@ I hope anyone reading this knows why Peter Shor's 1994 famous factoring algorith
 
 ## Steps
 Shor's algorithm follows in abstract from the fact, that for any composite number $N$ and natural number $g<N$ with GCD$(g,N)=1$, we can write the relation as
-\begin{equation}
+$$
 g^r = 1 \mod(N),
-\end{equation}
-or
+$$
+or equivalently
 $$
 g^r - 1 \equiv (g^{r/2} - 1)(g^{r/2} + 1) = mN,
 $$
